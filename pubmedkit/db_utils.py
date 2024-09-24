@@ -6,7 +6,7 @@ def create_db_engine(db_url: str):
 
 def create_pubmed_table(engine):
     metadata = MetaData()
-    example_table = Table('pubmed_table', metadata,
+    pubmed_table = Table('pubmed_table', metadata,
                           Column('pmid', String, primary_key=True),
                           Column('title', String),
                           Column('abstract', String),
@@ -17,7 +17,7 @@ def create_pubmed_table(engine):
                           Column('doi', String),
                           Column('version', String))
     metadata.create_all(engine)
-    return example_table
+    return pubmed_table
 
 def insert_data(engine, table, data):
     with engine.connect() as conn:
