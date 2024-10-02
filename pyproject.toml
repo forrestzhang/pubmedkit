@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "pubmedkit"
+version = "0.1.1"
+description = "A Python package to convert PubMed Baseline files to list, dictionary or Pandas DataFrames and search PubMed entrie"
+authors = ["Tao Zhang"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+biopython = "^1.84"
+pubmed-parser = "^0.5.1"
+pandas = "^2.2.3"
+tqdm = "^4.66.5"
+sqlalchemy = "^2.0.35"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

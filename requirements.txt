@@ -1,4 +1,0 @@
-biopython>1.70
-pubmed_parser>=0.5.0
-pandas
-sqlalchemy
