@@ -2,7 +2,7 @@
 name = "pubmedkit"
 version = "0.1.1"
 description = "A Python package to convert PubMed Baseline files to list, dictionary or Pandas DataFrames and search PubMed entrie"
-authors = ["Tao Zhang"]
+authors = ["Tao Zhang <forrest_zhang@163.com>"]
 license = "MIT"
 readme = "README.md"
 
